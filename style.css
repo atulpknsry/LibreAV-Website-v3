@@ -1,0 +1,156 @@
+body{
+    margin: auto;
+    background-color: #d1caff;
+}
+header{
+    background-color: white;
+    height: 600px;
+    margin-bottom: 10%;
+}
+header nav{
+    padding: 2% 2% 4% 2%;
+}
+header nav a{
+    float: right;
+    text-decoration: none;
+    color: #8080ff;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 2%;
+}
+header nav img{
+    width: 128px;
+    float: left;
+}
+#logo{
+    height: 300px;
+    float: right;
+    padding: 5%;
+}
+#description{
+    text-align: justify;
+    padding: 7.5% 10% 10% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#description p{
+    font-size: larger;
+}
+#download-badge{
+    padding-left: 17.5%;
+    padding-top: 2.5%;
+}
+.badge img{
+    width: 256px;
+}
+.functionality{
+    background-color: white;
+    height: 200px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7.5% 10% 10% 5%;
+}
+.functionality-img-right{
+    float: right; 
+    width: 256px; 
+    padding: 5%;
+}
+.functionality-img-left{
+    float: left; 
+    width: 256px; 
+    padding: 5%;
+}
+.functionality-heading-right{
+    text-align: right; 
+    font-size: 48px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top: 5%;
+}
+.functionality-heading-left{
+    text-align: left; 
+    font-size: 48px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top: 5%;
+}
+.functionality-text-right{
+    text-align: right;
+}
+.functionality-text-left{
+    text-align: left;
+}
+@media only screen and (max-width: 600px){
+    header{
+        height: 768px;
+    }
+    header nav{
+        position: fixed;
+        bottom: 0;
+        background-color: #e9e6ff;
+    }
+    header nav img{
+        width: 128px;
+        padding: 2%;
+    }
+    header nav a{
+        font-size: large;
+        padding-left: 20px;
+    }
+    #logo{
+        float: none;
+        display:block;
+        margin:auto;
+    }
+    #description{
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #description p{
+        font-size: large;
+        display:block;
+        margin:auto;
+    }
+    #download-badge{
+        padding: 5%;
+        height: 160px;
+    }
+    #download-badge img{
+        width: 50%;
+        float: left;
+    }
+    .functionality{
+        background-color: white;
+        height: 200px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10%;
+    }
+    .functionality-img-right{
+        float: right; 
+        width: 128px; 
+        padding: 5%;
+    }
+    .functionality-img-left{
+        float: left; 
+        width: 128px; 
+        padding: 5%;
+    }
+    .functionality-heading-right{
+        text-align: right; 
+        font-size: 24px; 
+        font-family: Arial, Helvetica, sans-serif; 
+        padding-top: 5%;
+    }
+    .functionality-heading-left{
+        text-align: left; 
+        font-size: 24px; 
+        font-family: Arial, Helvetica, sans-serif; 
+        padding-top: 5%;
+    }
+    .functionality-text-right{
+        text-align: right;
+    }
+    .functionality-text-left{
+        text-align: left;
+    }
+    
+}
